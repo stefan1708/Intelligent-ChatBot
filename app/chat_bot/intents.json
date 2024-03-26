@@ -1,0 +1,340 @@
+{
+  "intents": [
+    {
+      "tag": "salutari",
+      "patterns": [
+        "Buna",
+        "Salut",
+        "Hei",
+        "Hey",
+        "Hello",
+        "Sal",
+        "Salutare",
+        "Salve"
+      ],
+      "responses": [
+        "Buna!  Cu ce te pot ajuta?",
+        "Salut! Cu ce te pot ajuta?",
+        "Hei! Cu ce te pot ajuta?",
+        "Hey! Cu ce te pot ajuta?",
+        "Hello! Cu ce te pot ajuta?"
+      ]
+    },
+    {
+      "tag": "despartire",
+      "patterns": [
+        "Pa",
+        "Ne mai auzim",
+        "O zi buna!",
+        "Pa pa",
+        "Papa",
+        "La revedere"
+      ],
+      "responses": [
+        "Ne vedem la urmatoarea vizita! O zi frumoasa!",
+        "La revedere! Sa aveti o zi buna!",
+        "La revedere! Sa aveti o zi frumoasa"
+      ]
+    },
+    {
+      "tag": "multumiri",
+      "patterns": [
+        "Mersi",
+        "Multumesc",
+        "Iti multumesc",
+        "Mersi mult",
+        "mss",
+        "Mss"
+      ],
+      "responses": [
+        "Placerea este de partea mea!",
+        "Oricand!",
+        "Cu placere! Oricand!"
+      ]
+    },
+    {
+      "tag": "problema",
+      "patterns": [
+        "Nu ma simt bine",
+        "Imi e rau",
+        "Nu sunt in apele mele",
+        "Ma doare ceva",
+        "Ma doare"
+      ],
+      "responses": [
+        "Puteti detalia? Ce simptome aveti?"
+      ]
+    },
+    {
+      "tag": "otita",
+      "patterns": [
+        "Nu mai aud",
+        "Ma doare urechea",
+        "Ma doare urechea si nu mai aud"
+      ],
+      "responses": [
+        "Cel mai probabil este o otita externa. Puteti sa faceti un consult la un medic specializat pe probleme ORL."
+      ]
+    },
+    {
+      "tag": "sinuzita",
+      "patterns": [
+        "Imi curge nasul",
+        "Ma doare nasul",
+        "Imi curge nasul",
+        "Respir greu",
+        "Ma doare nasul",
+        "Febra",
+        "Tusesc"
+      ],
+      "responses": [
+        "Cel mai probabil este o sinuzita. Puteti sa faceti un consult la un medic specializat pe probleme ORL."
+      ]
+    },
+    {
+      "tag": "conjunctivita",
+      "patterns": [
+        "Ma mananca ochiul",
+        "Simt ca am ceva in ochi",
+        "Ma ustura ochiul",
+        "Ma arde ochiul",
+        "Ma dor ochii la lumina"
+      ],
+      "responses": [
+        "Cel mai probabil este o conjunctivita. Puteti sa faceti un consult la un medic specializat pe probleme ORL."
+      ]
+    },
+    {
+      "tag": "pneumonie",
+      "patterns": [
+        "rau",
+        "tuse",
+        "dispnee",
+        "greu saárespir",
+        "febra",
+        "frisoane",
+        "durere in piept",
+        "torace",
+        "toracica"
+      ],
+      "responses": [
+        "Cel mai probabil este o pneumonie. Va rog sa mergeti cat se poate de repede la un spital de boli infectioase."
+      ]
+    },
+    {
+      "tag": "covid",
+      "patterns": [
+        "febra",
+        "frisoane",
+        "tuse",
+        "dificultate la respir",
+        "respir greu",
+        "oboseala",
+        "durere musculara",
+        "oboseala musculara",
+        "durere de cap",
+        "pierderea gustului",
+        "pierderea mirosului",
+        "durere in gat",
+        "doare gatul",
+        "curge nasul",
+        "greata",
+        "am varsat",
+        "am vomitat",
+        "am borat",
+        "diaree"
+      ],
+      "responses": [
+        "Cel mai probabil este Covid-19. Va rog sa mergeti cat se poate de repede la un spital de boli infectioase."
+      ]
+    },
+    {
+      "tag": "hernie",
+      "patterns": [
+        "abdomen umflat",
+        "durere la umflatura",
+        "durere cand ridic",
+        "crampe",
+        "varsaturi"
+      ],
+      "responses": [
+        "Cel mai probabil aveti hernie. Va rog sa va deplasati la un spital de urgenta pentru a va rezolva problema chirurgical."
+      ]
+    },
+    {
+      "tag": "entorsa",
+      "patterns": [
+        "doare",
+        "dureri",
+        "umflat",
+        "umflatura",
+        "nu mai am putere in"
+      ],
+      "responses": [
+        "Cel mai probabil este o entorsa. Va rog sa nu mai puneti presiune mare pe locul respectiv si sa va odihniti."
+      ]
+    },
+    {
+      "tag": "tetanos",
+      "patterns": [
+        "spasme",
+        "contracta",
+        "contractii",
+        "muschi",
+        "muschii",
+        "m-am taita",
+        "m-a muscat"
+      ],
+      "responses": [
+        "Cel mai probabil aveti tetanos. Va rog sa mergeti cat se poate de repede la un spital pentru a va vaccina."
+      ]
+    },
+    {
+      "tag": "pojar",
+      "patterns": [
+        "febra mare",
+        "febra inalta",
+        "tuse",
+        "curge nasul",
+        "ochii rosii",
+        "ochi rosii",
+        "curg ochii",
+        "conjunctivita"
+      ],
+      "responses": [
+        "Cel mai probabil aveti rujeola(pojar). Va rog sa va deplasati cat se poate de repede la un spital pentru a va vaccina."
+      ]
+    },
+    {
+      "tag": "amigdalita",
+      "patterns": [
+        "amigdale rosii",
+        "pete albe",
+        "pete galbene",
+        "durere in gat",
+        "nu pot sa inghit",
+        "febra",
+        "ragusit",
+        "ragusita",
+        "respiratie neplacuta",
+        "respiratie urat mirositoare",
+        "doare burta",
+        "gat intepenit",
+        "cefalee"
+      ],
+      "responses": [
+        "Cel mai probabil aveti amigdalita. Va rog sa mergeti la un spital de urgenta pentru a va ajuta cu problema dumneavoastra."
+      ]
+    },
+    {
+      "tag": "apendicita",
+      "patterns": [
+        "durere abdominala",
+        "doare burta",
+        "greata",
+        "varsaturi",
+        "constipat",
+        "scaun rar",
+        "diaree",
+        "febra"
+      ],
+      "responses": [
+        "Cel mai probabil aveti apenticita. Va rog sa mergeti la un spital de urgenta pentru a va ajuta cu problema dumneavoastra."
+      ]
+    },
+    {
+      "tag": "hemoroizi",
+      "patterns": [
+        "doare",
+        "sangerez",
+        "umflaturi la fund"
+      ],
+      "responses": [
+        "Cel mai probabil aveti hemoroizi. Mergeti la cea mai apropiata farmacie pentru tratament."
+      ]
+    },
+    {
+      "tag": "meningita",
+      "patterns": [
+        "febra",
+        "durere de cap",
+        "doare capul",
+        "gat rigid",
+        "hiperventilatie",
+        "respir rapid",
+        "somnolenta",
+        "fotofobie",
+        "deranjeaza lumina",
+        "greata",
+        "varsaturi",
+        "durere musculara",
+        "durere articulara",
+        "confuzie",
+        "dificultati de concentrare",
+        "convulsii",
+        "lipsa apetitului",
+        "foame",
+        "sete",
+        "iritatii",
+        "eruptii",
+        "piele"
+      ],
+      "responses": [
+        "Cel mai probabil aveti meningita. Mergeti la un spital de urgenta pentru un diagnostic mai precis si pentru tratament."
+      ]
+    },
+    {
+      "tag": "cistita",
+      "patterns": [
+        "durere la urinare",
+        "pipi des",
+        "puroiului",
+        "dureri lombare",
+        "hematurie",
+        "sange in urina",
+        "disurie",
+        "(eliminare",
+        "dificila a urinei",
+        "cantitate",
+        "mica de urina",
+        "urina de culoare inchisa",
+        "cu sange",
+        "pipi",
+        "miros intepator",
+        "durere in timpul actului sexual",
+        "durere la sex",
+        "nu am energie",
+        "febra"
+      ],
+      "responses": [
+        "Cel mai probabil aveti cistita. Mergeti la un spital de urgenta pentru analize mai amanuntite si pentru tratament."
+      ]
+    },
+    {
+      "tag": "epilepsie",
+      "patterns": [
+        "o stare de confuzie",
+        "miscari necontrolate",
+        "pierderea cunostintei",
+        "frică",
+        "anxietate"
+      ],
+      "responses": [
+        "Cel mai probabil aveti epilepsie. Va rog sa mergeti cat se paote la un medic neurolog."
+      ]
+    },
+    {
+      "tag": "gastrita",
+      "patterns": [
+        "indigestie",
+        "arsura",
+        "greata",
+        "varsaturi",
+        "preaplin"
+      ],
+      "responses": [
+        "Cel mai probabil aveti gastrita. Va rog sámergeti la medic gastroenterolog pentru investigatii."
+      ]
+    }
+  ]
+}
